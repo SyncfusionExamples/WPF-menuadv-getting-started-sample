@@ -1,0 +1,29 @@
+﻿<Window x:Class="MenuAdvSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuAdvSample"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <syncfusion:MenuAdv>
+            <syncfusion:MenuItemAdv Header="Products" />
+            <syncfusion:MenuItemAdv Header="Business Intelligence" />
+                <syncfusion:MenuItemAdv Header="User Interface" >
+                    <syncfusion:MenuItemAdv Header="WPF  ">
+                        <syncfusion:MenuItemAdv Header="Tools"/>
+                        <syncfusion:MenuItemAdv Header="Chart"/>
+                        <syncfusion:MenuItemAdv Header="Grid"/>
+                        <syncfusion:MenuItemAdv Header="Diagram"/>
+                        <syncfusion:MenuItemAdv Header="Gauge"/>
+                        <syncfusion:MenuItemAdv Header="Schedule"/>
+                        <syncfusion:MenuItemAdv Header="Edit"/>
+                    </syncfusion:MenuItemAdv>
+                    <syncfusion:MenuItemAdv Header="Silverlight "/>
+                    <syncfusion:MenuItemAdv Header="Reporting" />
+                </syncfusion:MenuItemAdv>
+        </syncfusion:MenuAdv>
+    </Grid>
+</Window>
